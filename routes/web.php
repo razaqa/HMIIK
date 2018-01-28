@@ -21,12 +21,12 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::group(['prefix' => 'admin'], function () {
-  Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('admin-login');
+Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
+  Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('login');
   Route::post('/login', 'AdminAuth\LoginController@login');
-  Route::post('/logout', 'AdminAuth\LoginController@logout')->name('admin-logout');
+  Route::post('/logout', 'AdminAuth\LoginController@logout')->name('logout');
 
-  Route::get('/register', 'AdminAuth\RegisterController@showRegistrationForm')->name('admin-register');
+  Route::get('/register', 'AdminAuth\RegisterController@showRegistrationForm')->name('register');
   Route::post('/register', 'AdminAuth\RegisterController@register');
 
   Route::post('/password/email', 'AdminAuth\ForgotPasswordController@sendResetLinkEmail')->name('password.request');

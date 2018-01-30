@@ -1,38 +1,30 @@
 <!DOCTYPE html>
-<html lang="{{ config('app.locale') }}" dir="rtl">
+<html lang="{{ config('app.locale') }}">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-        <meta name="description" content="Description of the page">
-
-        <!-- Apple Devices -->
-        <!-- <link rel="apple-touch-icon" href="/custom-icon.png"> -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-        <!-- Normalize CSS -->
-        <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
+        <meta name="viewport" content="initial-scale=1.0"/>
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="{{ asset('css/bootstrap-v4.0.min.css') }}">
+        <!-- <link rel="stylesheet" href="{{ asset('css/bootstrap-v4.0.min.css') }}"> -->
         <!-- Foundation ZURB -->
-        <!-- <link rel="stylesheet" href="{{ asset('css/foundation.min.css') }}"> -->
+        <link rel="stylesheet" href="{{ asset('css/foundation.min.css') }}">
         <!-- Lightbox -->
         <!-- <link rel="stylesheet" href="{{ asset('css/lightbox.min.css') }}"> -->
         <!-- Basic Style -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <!-- Navbar Style -->
-        <link rel="stylesheet" href="{{ asset('css/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/admin-header.css') }}">
         <!-- Footer Style -->
         <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
-        <!-- Default Style -->
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <!-- Admin Template -->
+        <link rel="stylesheet" href="{{ asset('css/admin.css') }}">
         @yield('extra-css')
 
         <!-- Google Open Sans -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
 
-        <title>Title | @yield('title')</title>
+        <title>Pratama Jaya | @yield('title')</title>
     </head>
     <body>
         @include('layout.header')
@@ -53,7 +45,9 @@
         <script type="application/javascript" src="{{ asset('js/what-input.js') }}"></script>
         <script type="application/javascript" src="{{ asset('js/foundation.min.js') }}"></script>
         <!-- Customization -->
-        <script type="application/javascript" src="{{ asset('js/header.js') }}"></script>
+        <script type="application/javascript" src="{{ asset('js/admin-header.js') }}"></script>
+        <!-- Admin -->
+        <script type="application/javascript" src="{{ asset('js/admin.js') }}"></script>
         @yield('extra-js')
 
         @include('layout.footer')

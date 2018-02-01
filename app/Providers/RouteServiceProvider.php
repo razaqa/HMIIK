@@ -55,6 +55,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         Route::group([
             'middleware' => ['web', 'admin', 'auth:admin'],
+            'middleware' => ['web', 'admin'],
             'prefix' => 'admin',
             'as' => 'admin.',
             'namespace' => $this->namespace,

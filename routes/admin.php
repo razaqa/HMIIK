@@ -1,6 +1,6 @@
 <?php
 
-Route::get('admin/home', function () {
+Route::get('/dashboard', function () {
     $users[] = Auth::user();
     $users[] = Auth::guard()->user();
     $users[] = Auth::guard('admin')->user();
@@ -8,4 +8,4 @@ Route::get('admin/home', function () {
     //dd($users);
 
     return view('admin.dashboard');
-})->name('admin.home');
+})->name('home');

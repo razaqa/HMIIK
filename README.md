@@ -12,7 +12,9 @@ Go to Github
   
 Go to Local  
 2. Create new folder with the name of the project  
-```mkdir [project name]```  
+```
+mkdir [project name]
+```  
 3. Go inside the folder  
 ```cd [project name]```  
 4. Create Git initialization  

@@ -21,6 +21,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+//this is resource controller, if you want to make a CRUD system, just look at it
+Route::resource('/template', 'TemplateController');
+
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
   Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('login');
   Route::post('/login', 'AdminAuth\LoginController@login');

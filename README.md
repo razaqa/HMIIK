@@ -1,76 +1,33 @@
-# Bismit Revolution
+# [Project Name]
 
-### Profile Website
+## Description 
+> **[Project Name]** is a template for developing BismitRevolution projects so we can maximize our development process in order to make more fast and agile. 
 
-###### DESCRIPTION 
+###### Why Project Name?
+> **[Project Name]** provides more fast and agile in our development process to maximize our final project and cut off times. 
 
-> *Bismit Revolution* merupakan biro yang bertanggungjawab untuk menunjang segala kegiatan yang dilakukan oleh BEM Fasilkom UI, terutama dalam bidang pendanaan. Biro Bisnis dan Kemitraan, kamu akan ditantang untuk dapat memaksimalkan potensi yang kamu miliki dengan ide bisnis yang kreatif serta inovatif dan tentunya sesuai dengan perkembangan teknologi terkini.
+## Environment 
 
-###### HOW TO USE 
-1. Go to Github  
-  
-2. Create new public repository with no initial file in BismitRevolution  
-  
-3. Go to target folder using terminal    
-  
-4. Create new folder with the name of the project  
-```
-mkdir [project name]
-```  
-5. Go inside the folder  
-```
-cd [project name]
-```  
-6. Create Git initialization  
-```
-git init
-```  
-7. Add remote from template repo  
-```
-git remote add template https://github.com/BismitRevolution/Template.git
-```  
-8. Retrive the template  
-```
-git pull template master
-```  
-9. Install composer  
-```
-composer install
-```  
-10. Set environment  
-```
-cp .env.example .env
-```  
-11. Generate Laravel key  
-```
-php artisan key:generate
-```  
-11. Test the laravel project  
-```
-php artisan serve
-```  
-12. Connect to project's repository  
-```
-git remote add origin [repository link]
-```  
-13. Remove template repository  
-```
-git remote rm template
-```  
-14. Push template to origin  
-```
-git push origin master
-```  
+##### Frameworks 
+###### 1. Laravel 
+> - version 5.6 stable, [link](https://laravel.com/ "Laravel - The PHP Framework For Web Artisans")
+###### 2. Bootstrap CSS 
+> - version 4.0.0, [link](http://getbootstrap.com/ "Bootstrap - The most popular HTML, CSS, and JS library in the world.")
 
-Happy coding!
+##### Libraries 
+###### 1. Font Awesome 
+> - version 5.0.8, [link](https://fontawesome.com/ "Icons - Font Awesome")
 
-###### PROGRAMMING ENVIRONMENT 
-
-> - Laravel PHP Framework
-> - Foundation v6 by ZURB Foundation 
-> - Bootstrap v4.0.0 beta 
-> - MySQL Database
-
-###### ABOUT US
-
-- Aji Imawan Omi, see [full profile](https://www.linkedin.com/in/ajiimawanomi/ "see Aji on Linkedin")
+## Contributors 
+###### Project Lead 
+> - Aji Imawan Omi, see [full profile](https://www.linkedin.com/in/ajiimawanomi/ "see Aji on LinkedIn")
+###### Back End Developer 
+> - Muhammad Fachry Nataprawira, see [full profile](https://www.linkedin.com/in/keinata/ "see Fachry on LinkedIn")
+> - Rayza Arasj Mahardhika, see [full profile](https://www.linkedin.com/in/rayzaarasj/ "see Rayza on LinkedIn")
+> - Valian Fil Ahli, see [full profile](https://www.linkedin.com/in/valianfilahli/ "see Valian on LinkedIn")
+###### Front End Developer 
+> - Muhammad Risyad Ilmawan, see [full profile](https://www.linkedin.com/in/risyadilmawan/ "see Risyad on LinkedIn")
+> - Razaqa Dhafin Haffiyan, see [full profile](https://www.linkedin.com/in/razaqa-dhafin-haffiyan/ "see Dhafin on LinkedIn")
+###### UI Designer 
+> - Najwa Satirah, see [full profile](https://www.linkedin.com/in/najwa-satirah/ "see Najwa on LinkedIn")
+> - Nabila Fathia Zahra, see [full profile](https://www.linkedin.com/in/nabila-fathia-zahra-b3623114b/ "see Nabila on LinkedIn")

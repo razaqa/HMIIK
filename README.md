@@ -1,10 +1,7 @@
-# [Project Name]
+# HMIK FISIP
 
 ## Description 
-> **[Project Name]** is a template for developing BismitRevolution projects so we can maximize our development process in order to make more fast and agile. 
-
-###### Why Project Name?
-> **[Project Name]** provides more fast and agile in our development process to maximize our final project and cut off times. 
+> **HMIK FISIP** merupakan Himpunan Mahasiswa Ilmu Komunikasi Universitas Indonesia. 
 
 ## Environment 
 

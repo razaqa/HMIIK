@@ -39,7 +39,7 @@
             <div class="col-lg-1">
             </div>
             <div class="col-lg-5 col-lg-push-1 hidden-xs text-right">
-                <br><br><br><br><br><br>
+                <br><br><br><br><br> <br>
                 <h3 class="text-uppercase title-2 opacity-60">Sejarah</h3>
                 <br>
                 <p class="opacity-70">
